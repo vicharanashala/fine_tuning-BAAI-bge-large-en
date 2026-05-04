@@ -1,0 +1,45 @@
+# Virtual Environment
+.venv/
+.venv_vllm/
+env/
+venv/
+ENV/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Large Model Weights & Data
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+checkpoint-*/
+models/finetuned/
+
+# Data Files (Keep structure, ignore content)
+data/processed/
+data/training/
+data/raw/
+*.jsonl
+*.json
+*.csv
+!data/README.md
+
+# Logs & Metrics
+logs/
+runs/
+events.out.tfevents.*
+*.log
+
+# OS & Misc
+.DS_Store
+.ipynb_checkpoints
+.vscode/
+.idea/
+
+# Environment
+.env
